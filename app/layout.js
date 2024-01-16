@@ -8,11 +8,19 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  const Year =  new Date().getFullYear()
   return (
     <html lang="en">
       <body>
         <header className="primary-header">
-          
+          <a href="/" className="site__logo">Site Name</a>
+          <nav>
+            <ul className="site__nav">
+              <li><a href="">Lorem.</a></li>
+              <li><a href="">Molestiae.</a></li>
+              <li><a href="">Odio.</a></li>
+            </ul>
+          </nav>
         </header>
         <main id="main-content">
           <div className="container">
@@ -20,7 +28,7 @@ export default function RootLayout({ children }) {
           </div>
         </main>
         <footer className="primary-footer">
-
+          <p>Copyright &copy; {Year}</p>
         </footer>
       </body>
     </html>
