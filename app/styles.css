@@ -1,0 +1,49 @@
+
+html {
+    font-family: system-ui, sans-serif;
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: 1.5;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.primary-header {
+    align-items: center;
+    display: grid;
+    gap: 0.5rem;
+    justify-content: center;
+    justify-items: center;
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    .primary-header {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.site__logo {
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.site__nav {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.site__nav a {
+    text-decoration: none;
+}
+
+.primary-footer {
+    display: grid;
+    font-size: 0.9rem;
+    justify-items: center;
+    padding: 0.5rem 1rem;
+}
