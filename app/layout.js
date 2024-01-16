@@ -1,7 +1,6 @@
 import './reset.css'
 import './styles.css'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <header className="primary-header">
-   
+          
         </header>
         <main id="main-content">
           <div className="container">
