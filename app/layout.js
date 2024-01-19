@@ -1,5 +1,7 @@
-import './reset.css'
-import './styles.css'
+// import './reset.css'
+// import './styles.css'
+
+import './styles.scss'
 
 
 export const metadata = {
