@@ -1,6 +1,7 @@
 import Header from '@/components/Header'
 import './styles.scss'
 import Footer from '@/components/Footer'
+import Container from '@/components/Container'
 
 
 export const metadata = {
@@ -15,9 +16,9 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         <main id="main-content">
-          <div className="container">
-            {children}
-          </div>
+          <Container>
+          {children}
+          </Container>
         </main>
         <Footer />
       </body>
