@@ -1,0 +1,15 @@
+.site__logo {
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.site__nav {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.site__nav a {
+    text-decoration: none;
+}
