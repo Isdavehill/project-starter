@@ -19,7 +19,7 @@ body {
     padding: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-medium) {
     .primary-header {
         grid-template-columns: 1fr 1fr;
     }
