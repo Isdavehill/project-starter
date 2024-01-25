@@ -13,7 +13,6 @@
 html {
     color-scheme: dark light;
     font-family: system-ui, sans-serif;
-    hanging-punctation: first last;
     min-height: 100%;
 }
 
