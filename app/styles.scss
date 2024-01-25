@@ -1,8 +1,9 @@
 
-@use './scss/reset';
-@use './scss/layout';
-@use './scss/header';
-@use './scss/typography';
+@import './scss/variables';
+@import './scss/reset';
+@import './scss/layout';
+@import './scss/header';
+@import './scss/typography';
 
 // components
-@use './scss/components/card'
+@import './scss/components/card'
