@@ -3,4 +3,6 @@
 @use './scss/layout';
 @use './scss/header';
 @use './scss/typography';
-@use './scss/components'
+
+// components
+@use './scss/components/card'

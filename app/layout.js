@@ -1,7 +1,7 @@
 import Header from '@/components/Header'
 import './styles.scss'
 import Footer from '@/components/Footer'
-import Container from '@/components/Container'
+import Wrapper from '@/components/Wrapper'
 import { site } from '@/lib/config'
 
 
@@ -19,9 +19,9 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         <main id="main-content">
-          <Container>
+          <Wrapper>
             {children}
-          </Container>
+          </Wrapper>
         </main>
         <Footer />
       </body>

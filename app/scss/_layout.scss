@@ -1,3 +1,7 @@
+$content-width: 75ch;
+$inline-padding: 2rem;
+$block-margin: 1.5rem;
+
 html {
     font-family: system-ui, sans-serif;
     font-size: clamp(14px, 2vw, 18px);
@@ -24,11 +28,11 @@ body {
     }
 }
 
-.container {
-    margin-block: 1.5rem;
+.wrapper {
+    margin-block: $block-margin;
     margin-inline: auto;
-    padding: 1rem;
-    width: min(100% - 2rem, 75ch);
+    // padding: 1rem;
+    width: min(100% - $inline-padding, $content-width);
 }
 
 .primary-footer {

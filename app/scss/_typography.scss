@@ -1,3 +1,7 @@
+$quote-accent: rgb(51, 102, 153);
+$quote-inline-padding: 1rem;
+
+
 h1,
 h2,
 h3,
@@ -32,9 +36,9 @@ p {
 
 
 blockquote {
-    border-left: 0.55rem solid rgb(51, 102, 153);
+    border-left: 0.55rem solid $quote-accent;
     background-color: #eee;
-    padding: 0.5rem 1rem;
+    padding: calc($quote-inline-padding / 2) $quote-inline-padding;
 }
 
 blockquote p {
